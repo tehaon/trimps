@@ -2,7 +2,7 @@
 //import { map, filter, switchMap } from 'https://dev.jspm.io/rxjs@6/_esm2015/operators';
 
 
-if (typof rxjs == 'undefined') {
+if (typeof rxjs == 'undefined') {
   var script = document.createElement('script');
   script.src = 'https://cdnjs.cloudflare.com/ajax/libs/rxjs/6.1.0/rxjs.umd.js';
   script.setAttribute('crossorigin',"anonymous");
